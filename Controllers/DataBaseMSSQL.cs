@@ -32,7 +32,6 @@ namespace ISERV_ETL.Controllers
                     : string.Join(';', educationalInstitution.Web_Pages);
 
                 command.ExecuteNonQuery();
-
             }
         }
 
